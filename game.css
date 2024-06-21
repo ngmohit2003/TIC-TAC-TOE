@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #4ECDC4;
+    text-align: center;
+
+}
+.container{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;             /*  its basically 1% smaller from the previous viewport's dimension           58A4B0   2C4251   2C4251  0FA3B1   466362   3A606E     document.querySelector("box").style.backgroundColor=" #466362"           */
+    width: 60vmin;
+    /* margin: 120px 0px 0px 550px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+     height: 18vmin;
+     width: 18vmin;
+     border-radius: 1rem ;
+     box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+     font-size: 8vmin;
+     color:  #FF6B6B;
+     background-color: whitesmoke;
+}
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #191913;
+    color: white;
+    border-radius: 1rem;
+}
+button{
+    
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #191913;
+    color: white;
+    border-radius: 1rem;
+}
+#msg{
+    color: rgb(254, 253, 253);
+    font-size: 5vmin;
+}
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.hide{
+    display: none;
+}
